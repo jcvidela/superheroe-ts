@@ -6,17 +6,18 @@
     <title>Express + TypeScript</title>
 </head>
 <body>
+
+    <noscript>Habilita javascript la concha de dioooos</noscript>
     <h1>Hello from TypeScript</h1>
     
     <button onclick="consultarAPI()">
-        API
+        ...
     </button>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script>
-        async function consultarAPI () {
-            let response = await axios.put('/heroes/1?nombre=cris&superpoder=ponerseserio')
-            console.log(response.data);
+        function consultarAPI () {
+            alert('no me toques ahí')
         }
         
     </script>
